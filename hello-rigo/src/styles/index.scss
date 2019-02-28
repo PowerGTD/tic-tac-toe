@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.tile {
+    width: 30%;
+    height: 120px;
+    font-size: 80px;
+    background: orange;
+    border: 6px solid white;
+    text-align: center;
+    line-height: 88px;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-right: 35px;
+}
+
+.endOfGame {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-right: 35px;
+}
